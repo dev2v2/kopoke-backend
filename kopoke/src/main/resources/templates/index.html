@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Google OAuth 2.0 Login</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <p th:if="${name != null}">
+        Logged in as: <span th:text="${name}"></span>
+    </p>
+    <p th:if="${name == null}">
+        <a href="/oauth2/authorization/google">Login with Google</a>
+    </p>
+</body>
+</html>
