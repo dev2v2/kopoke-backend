@@ -1,0 +1,63 @@
+/* 기본 설정 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #444;
+}
+
+/* 게시글 작성 페이지 스타일 */
+.post-form {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-control:focus {
+    border-color: #0275d8;
+    outline: none;
+}
+
+.btn-submit {
+    padding: 10px 15px;
+    background-color: #0275d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #ec9f19;
+}
+
+/* Froala 에디터 내부 콘텐츠 스타일 */
+.fr-element {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 14px;
+}
